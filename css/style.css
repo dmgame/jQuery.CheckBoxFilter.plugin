@@ -88,9 +88,9 @@
 .chosen-criterion{
   text-align: center;
 }
-.chosen-criterion>div{
+/* .chosen-criterion>div{
     display: inline-block;
-}
+} */
 .chose-box{
   color: #919192;
   font-family: 'Roboto', sans-serif;;
@@ -98,6 +98,10 @@
   font-weight: 500;
   line-height: 28px;
   margin: 0 15px;
+  display: none;
+}
+.chose-box.choose{
+  display: inline-block;
 }
 .chose-box p{
   display: inline-block;
